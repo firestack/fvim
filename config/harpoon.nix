@@ -1,0 +1,5 @@
+{
+	plugins.harpoon = {
+		enable = true;
+	};
+}
