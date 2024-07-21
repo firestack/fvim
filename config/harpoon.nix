@@ -4,4 +4,5 @@
 		enable = true;
 		enableTelescope = true;
 	};
+	plugins.treesitter.enable = true;
 }
