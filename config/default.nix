@@ -5,13 +5,19 @@
 		./harpoon.nix
 	];
 
+	config.plugins.indent-o-matic.enable = true;
+	config.globals.mapleader = " ";
 	config.opts = {
-		# Use tabs by default
-		expandtab = false;
-		tabstop = 8;
-		softtabstop = 4;
-		shiftwidth = 4;
+		# Enable relative line numbers
+		number = true;
+		relativenumber = true;
 
+		expandtab=false;
+		copyindent=true;
+		preserveindent=true;
+		softtabstop=0;
+		shiftwidth=4;
+		tabstop=4;
 
 		# Set completeopt to have a better completion experience
 		completeopt = ["menuone" "noselect" "noinsert"]; # mostly just for cmp
