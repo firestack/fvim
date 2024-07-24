@@ -8,4 +8,5 @@
 
 	config.plugins.indent-o-matic.enable = true;
 	config.editorconfig.enable = true;
+	config.plugins.indent-blankline.enable = true;
 }
