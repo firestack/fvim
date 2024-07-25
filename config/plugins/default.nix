@@ -6,5 +6,6 @@
 		./indent-o-matic.nix
 		./lsp.nix
 		./treesitter.nix
+		./telescope.nix
 	];
 }

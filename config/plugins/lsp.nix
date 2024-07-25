@@ -2,14 +2,17 @@
 	plugins.lsp.enable = true;
 
 	plugins.lsp.servers = {
-		html = {enable = true;};
-		lua-ls = {enable = true;};
-		nil-ls = {enable = true;};
-		marksman = {enable = true;};
-		pyright = {enable = true;};
+		elixirls = {enable = true;};
 		gopls = {enable = true;};
+		html = {enable = true;};
+		jsonls = {enable = true;};
+		lua-ls = {enable = true;};
+		marksman = {enable = true;};
+		nil-ls = {enable = true;};
+		ruff = {enable = true;};
+		rust-analyzer = {enable = true;};
 		terraformls = {enable = true;};
 		tsserver = {enable = true;};
-		jsonls = {enable = true;};
+		typos-lsp = {enable = true;};
 	};
 }
