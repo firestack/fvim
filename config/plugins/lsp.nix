@@ -6,7 +6,7 @@
 		gopls = {enable = true;};
 		html = {enable = true;};
 		jsonls = {enable = true;};
-		lemminx = {enable = true;};
+		# lemminx = {enable = true;};
 		lua-ls = {enable = true;};
 		marksman = {enable = true;};
 		nil-ls = {enable = true;};
