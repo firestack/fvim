@@ -7,5 +7,6 @@
 		./lsp.nix
 		./treesitter.nix
 		./telescope.nix
+		./whichkey.nix
 	];
 }
