@@ -1,5 +1,6 @@
 {
 	globals.mapleader = " ";
+	colorscheme = "industry";
 	opts = {
 		# Enable relative line numbers
 		number = true;
