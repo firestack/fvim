@@ -63,7 +63,7 @@
 
 		# Enable chars list
 		list = true; # Show invisible characters (tabs, eol, ...)
-		listchars = "eol:↲,tab:→\ ,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
+		listchars = "eol:↲,tab:│\ →,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
 		# More space in the neovim command line for displaying messages
 		cmdheight = 2;
@@ -75,6 +75,9 @@
 		formatexpr = "v:lua.require'conform'.formatexpr()";
 
 		laststatus = 3; # (https://neovim.io/doc/user/options.html#'laststatus')
+
+		# Write buffer when switching buffer
+		autowrite = true;
 	};
     extraConfigLua = ''
       local opt = vim.opt
@@ -92,7 +95,7 @@
         g.neovide_cursor_vfx_particle_lifetime = 5.0
         g.neovide_cursor_vfx_particle_density = 14.0
         g.neovide_cursor_vfx_particle_speed = 12.0
-
+        g.neovide_scroll_animation_length = 0.01
         -- Neovide Fonts
         -- o.guifont = "Atkinson Hyperlegible:Regular:h15"
         -- o.guifont = "MonoLisa Trial:Medium:h15"
