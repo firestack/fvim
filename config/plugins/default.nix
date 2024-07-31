@@ -5,8 +5,8 @@
 		./indent-blankline.nix
 		./indent-o-matic.nix
 		./lsp.nix
-		./treesitter.nix
 		./telescope.nix
+		./treesitter.nix
 		./whichkey.nix
 	];
 }
