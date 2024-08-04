@@ -78,6 +78,10 @@
 
 		# Write buffer when switching buffer
 		autowrite = true;
+
+		# Better splitting
+		splitbelow = true;
+		splitright = true;
 	};
     extraConfigLua = ''
       local opt = vim.opt
