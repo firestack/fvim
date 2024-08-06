@@ -19,7 +19,7 @@
 			];
 
 			perSystem =
-				{ pkgs, system, ... }:
+				{ pkgs, system, self', ... }:
 				let
 					nixvimLib = nixvim.lib.${system};
 					nixvim' = nixvim.legacyPackages.${system};
@@ -42,6 +42,14 @@
 					packages = {
 						# Lets you run `nix run .` to start nixvim
 						default = nvim;
+						neovide = pkgs.symlinkJoin {
+							name = "kfnvim neovide";
+							paths = [
+								pkgs.neovide
+								self'.packages.default
+							];
+							meta.mainProgram = "neovide";
+						};
 					};
 				};
 		};
