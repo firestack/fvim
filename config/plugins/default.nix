@@ -1,6 +1,7 @@
 {
 	imports = [
 		./bufferline.nix
+		./emmet.nix
 		./harpoon.nix
 		./indent-blankline.nix
 		./indent-o-matic.nix
