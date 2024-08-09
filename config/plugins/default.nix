@@ -6,6 +6,7 @@
 		./indent-blankline.nix
 		./indent-o-matic.nix
 		./lsp.nix
+		./markdown-preview.nix
 		./telescope.nix
 		./treesitter.nix
 		./undotree.nix
