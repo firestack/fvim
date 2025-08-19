@@ -2,7 +2,7 @@
   # TODO: Implement general mappings
   plugins.which-key = {
     enable = true;
-    icons = {
+    settings.icons = {
       breadcrumb = "»";
       group = "+";
       separator = ""; # ➜
