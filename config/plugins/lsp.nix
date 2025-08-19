@@ -11,7 +11,7 @@
 		marksman = {enable = true;};
 		nil-ls = {enable = true;};
 		ruff = {enable = true;};
-		rust-analyzer = {enable = true;};
+		rust_analyzer = {enable = true; package = null; installCargo = false; installRustc = false; installRustfmt = false;};
 		terraformls = {enable = true;};
 		tsserver = {enable = true;};
 		typos-lsp = {enable = true;};
