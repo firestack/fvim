@@ -2,7 +2,7 @@
 	imports = [
 		./bufferline.nix
 		./emmet.nix
-		./harpoon.nix
+		# ./harpoon.nix
 		./indent-blankline.nix
 		./indent-o-matic.nix
 		./lsp.nix
